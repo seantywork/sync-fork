@@ -6,26 +6,25 @@ STREAM_UP=($(cat stream_up.txt))
 
 STREAM_BRANCH=($(cat stream_branch.txt))
 
+STREAM_NAME=($(cat stream_name.txt))
+
 INDEX=0
 LENGTH=${#STREAM_MAIN[@]}
 
 echo "length: $LENGTH"
 
-for target in "${STREAM_MAIN[@]}"
-do
 
-    mkdir -p target
+function do_sync(){
 
-    cd target
+    target="$1"
+    upstream="$2"
+    branch="$3"
+    name="$4"
 
-    upstream="${STREAM_UP[$INDEX]}"
-    branch="${STREAM_BRANCH[$INDEX]}"
 
-    echo "--------------------------"
-    echo "UP: $upstream"
-    echo "MAIN: $target"
-    echo "BRANCH: $branch"
-    echo "--------------------------"
+    mkdir -p $name
+
+    cd $name
 
     git clone $target .
 
@@ -37,11 +36,32 @@ do
 
     git push
 
-    INDEX=$((INDEX + 1))
-
     cd ../
 
-    rm -rf target
+    rm -rf $name
+
+}
+
+for target in "${STREAM_MAIN[@]}"
+do
+
+
+    upstream="${STREAM_UP[$INDEX]}"
+    branch="${STREAM_BRANCH[$INDEX]}"
+    name="${STREAM_NAME[$INDEX]}"
+
+    echo "--------------------------"
+    echo "UP: $upstream"
+    echo "MAIN: $target"
+    echo "BRANCH: $branch"
+    echo "NAME: $name"
+    echo "--------------------------"
+
+    do_sync $target $upstream $branch $name
+
+    INDEX=$((INDEX + 1))
+
+
 
 done
 

@@ -45,3 +45,5 @@ master
 master
 master
 gh-pages
+main
+trunk

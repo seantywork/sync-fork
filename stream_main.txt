@@ -45,3 +45,5 @@ https://github.com/seantywork/CANopenLinux.git
 https://github.com/seantywork/pigpio.git
 https://github.com/seantywork/dhcp.git
 https://github.com/seantywork/yaml-to-go.git
+https://github.com/seantywork/chromium.git
+https://github.com/seantywork/mysql-server.git

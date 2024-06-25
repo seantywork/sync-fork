@@ -45,3 +45,5 @@ CANopenLinux
 pigpio
 dhcp
 yaml-to-go
+chromium
+mysql-server

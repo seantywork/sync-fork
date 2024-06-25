@@ -45,3 +45,5 @@ https://github.com/CANopenNode/CANopenLinux.git
 https://github.com/joan2937/pigpio.git
 https://github.com/isc-projects/dhcp.git
 https://github.com/Zhwt/yaml-to-go.git
+https://github.com/chromium/chromium.git
+https://github.com/mysql/mysql-server.git

@@ -41,7 +41,7 @@ do
 
     cd ../
 
-    rm -rf target/*
+    rm -rf target
 
 done
 

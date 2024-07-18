@@ -49,3 +49,5 @@ seantywork/chromium
 seantywork/mysql-server
 seantywork/cli
 seantywork/xipki
+seantywork/radare2
+seantywork/mitmproxy

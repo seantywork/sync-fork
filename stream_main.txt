@@ -53,3 +53,4 @@ seantywork/radare2
 seantywork/mitmproxy
 seantywork/TuiCss
 seantywork/raylib
+seantywork/kaniko

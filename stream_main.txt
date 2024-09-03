@@ -54,3 +54,4 @@ seantywork/mitmproxy
 seantywork/TuiCss
 seantywork/raylib
 seantywork/kaniko
+seantywork/sshfs

@@ -60,3 +60,7 @@ seantywork/f-stack
 seantywork/podman
 seantywork/scrcpy
 seantywork/xdp-tools
+seantywork/wireguard-install
+seantywork/strongswan
+seantywork/libreswan
+seantywork/xl2tpd

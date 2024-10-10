@@ -64,3 +64,5 @@ seantywork/wireguard-install
 seantywork/strongswan
 seantywork/libreswan
 seantywork/xl2tpd
+seantywork/openvpn
+seantywork/openvpn-install

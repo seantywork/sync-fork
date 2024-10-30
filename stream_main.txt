@@ -67,3 +67,4 @@ seantywork/xl2tpd
 seantywork/openvpn
 seantywork/openvpn-install
 seantywork/gopacket
+seantywork/ebpf

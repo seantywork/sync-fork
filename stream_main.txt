@@ -20,7 +20,6 @@ seantywork/git
 seantywork/openssh-portable
 seantywork/libvirt
 seantywork/bash
-seantywork/nghttp2
 seantywork/gin
 seantywork/quic-go
 seantywork/grpc-go

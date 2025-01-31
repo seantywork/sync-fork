@@ -69,3 +69,4 @@ seantywork/gopacket
 seantywork/ebpf
 seantywork/linux-rpi
 seantywork/chan
+seantywork/arena

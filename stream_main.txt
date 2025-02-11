@@ -70,3 +70,6 @@ seantywork/ebpf
 seantywork/linux-rpi
 seantywork/chan
 seantywork/arena
+seantywork/asio
+seantywork/oneTBB
+seantywork/fmt

@@ -74,4 +74,4 @@ seantywork/asio
 seantywork/oneTBB
 seantywork/fmt
 seantywork/msquic
-seantywork/oqs
+seantywork/oqs-provider

@@ -75,3 +75,4 @@ seantywork/oneTBB
 seantywork/fmt
 seantywork/msquic
 seantywork/oqs-provider
+seantywork/liboqs

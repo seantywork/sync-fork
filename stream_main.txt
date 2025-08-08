@@ -78,3 +78,5 @@ seantywork/oqs-provider
 seantywork/liboqs
 seantywork/openstack
 seantywork/tokio
+seantywork/glibc
+seantywork/binutils-gdb

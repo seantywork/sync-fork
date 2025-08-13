@@ -81,3 +81,4 @@ seantywork/tokio
 seantywork/glibc
 seantywork/binutils-gdb
 seantywork/rust
+seantywork/vim
